@@ -9,5 +9,6 @@ type Book struct {
 	Bname        string        `json:"Bname"  bson:"book_name"`
 	Price        int           `json:"price"  bson:"book_price"`
 	Auther       Auther        `json:"auther" bson:"book_auther"`
-	//Count        int           `json:"count"  bson:"Book_count"`
+	 //Count        int           `json:"count"  bson:"Book_count"`
+	// Id     primitive.ObjectID 	`bson:"_id,omitempty" json:"id"`
 }

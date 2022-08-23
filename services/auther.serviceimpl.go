@@ -10,7 +10,7 @@ import (
 
 type AutherServiceimpl struct {
 	authercollection *mongo.Collection
-	ctx              context.Context
+	ctx               context.Context
 }
 func NewAutherservice(authercollection *mongo.Collection, ctx context.Context) AutherService {
 	return &AutherServiceimpl{
